@@ -5,9 +5,9 @@
   height: 36vh;
   width: 15vw;
   min-width: 200px !important;
+  max-width: 300px !important;
   color: var(--color-text-primary) !important;
   background-color: var(--color-surface-muted) !important;
-
   transition: transform 0.25s ease;
   max-height: 500px;
 }
