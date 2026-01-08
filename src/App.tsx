@@ -10,7 +10,7 @@ function App(): JSX.Element {
     <div className="main">
       <TopBar />
       <Routes>
-        <Route path="/" element={<FrontPage />} />
+        <Route path="/portfolio-website/" element={<FrontPage />} />
       </Routes>
     </div>
   );
