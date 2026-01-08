@@ -1,5 +1,5 @@
 {
-  "homepage": "https://KeijoPitkanen.github.io/portfolio-website"
+  "homepage": "https://KeijoPitkanen.github.io/portfolio-website",
   "name": "website-porfolio",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +8,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
@@ -19,10 +21,7 @@
     "react-dom": "^19.2.0",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.10.1"
-  },"scripts":{
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
-  }, 
+  },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "@types/node": "^24.10.1",
