@@ -14,6 +14,7 @@ import TEXT from "../assets/TextContent.json";
 function ProjectCard(project: ProjectInterface): JSX.Element {
   /////////////////////////////////////////////////////// Variables
   const [show, setShow] = useState(false);
+  const [loaded, setLoaded] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
@@ -59,19 +60,27 @@ function ProjectCard(project: ProjectInterface): JSX.Element {
       </Modal>
 
       <Card className="project-card" onClick={handleShow}>
-        <Card.Img
-          variant="top"
-          src={project.imagePath}
-          className="card-image"
-        />
+        {" "}
+        <div className="image-wrapper">
+          {" "}
+          {!loaded && <div className="image-skeleton" />}{" "}
+          <Card.Img
+            variant="top"
+            src={project.imagePath}
+            className={`card-image ${loaded ? "visible" : "hidden"}`}
+            onLoad={() => setLoaded(true)}
+          />{" "}
+        </div>{" "}
         <Card.Body>
-          <Card.Title>{project.title}</Card.Title>
-          <Card.Text>{project.description}</Card.Text>
+          {" "}
+          <Card.Title>{project.title}</Card.Title>{" "}
+          <Card.Text>{project.description}</Card.Text>{" "}
           <Card.Text>
+            {" "}
             <b>{TEXT.projectCard.usedTechnologies}:</b>{" "}
-            {project.usedTechnologies}
-          </Card.Text>
-        </Card.Body>
+            {project.usedTechnologies}{" "}
+          </Card.Text>{" "}
+        </Card.Body>{" "}
       </Card>
     </>
   );

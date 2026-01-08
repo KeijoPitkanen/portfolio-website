@@ -36,7 +36,7 @@ function TopBar(): JSX.Element {
             className="profile-image"
             fluid
             rounded
-            src="./src/assets/profile-picture.jpg"
+            src="/portfolio-website/profile-picture.jpg"
           />
           <br />
           {TEXT.offCanvas.text}
