@@ -3,7 +3,7 @@
     "title": "Jellyfin-media-renamer (JMR)",
     "description": "A command line tool that mass renames files to comply with the Jellyfin naming scheme.",
     "projectText": "This was the first big(ish) project that I made. Originally it was bloated and way bigger but I was able to refactor it to make it smaller by using the Java.File object. This tool takes files which usually contain a lot of gibberish to follow the jellyfin naming scheme for movies, shows and season folders.",
-    "imagePath": "./src/assets/logo-jmr.jpg",
+    "imagePath": "/portfolio-website/logo-jmr.jpg",
     "link": "https://github.com/KeijoPitkanen/Jellyfin-media-renamer",
     "linkText": "GitHub",
     "usedTechnologies": "Java, Jellyfin, Linux"
@@ -12,8 +12,8 @@
     "title": "Portfolio website",
     "description": "This very website ! A portfolio website created using React and hosted by github pages.",
     "projectText": "I originally created this project to train and study for the final exam of my web programming course at the University of Eastern Finland. While making the first version I learned a lot of how React works. One year later I decided to update it before sending it with my CV to possible employers. During the past year I had become a lot more familiar with React. I had started using Typescript which I found to be a lot more logical to me as a person who is most familiar with Java and C++ than regular Javascript. I had also used it in other courses and the biggest change was that I had used it to create a e-commerce website for a start up company I am/was a founding member. The updated version is miles a part from the old version which can still be found as a different branch.",
-    "imagePath": "./src/assets/logo-portfolio-website.png",
-    "link": "https://github.com/KeijoPitkanen/website-portfolio",
+    "imagePath": "/portfolio-website/logo-portfolio-website.png",
+    "link": "https://github.com/KeijoPitkanen/portfolio-website",
     "linkText": "GitHub",
     "usedTechnologies": "React, Vite, Typescript, Bootstrap, Github Pages"
   },
@@ -21,7 +21,7 @@
     "title": "Github data analyzer",
     "description": "A CLI tool that fetches data from GitHub projects and returns useful data for analyzing projects",
     "projectText": "I started this project after I wrote a study paper for a course at the University of Eastern Finland. My paper was about the structure and SDLC of open source projects. For the study paper I reviewed around 30 different open source projects which were mostly hosted in Github. I quickly noticed how tedious the work was to collect the data of contributors, maintainers, commits and release cycles. After finishing that course I started writing this project so in my free time I could do a better study paper with hundreds of projects instead of just tens of projects.",
-    "imagePath": "./src/assets/logo-default.jpg",
+    "imagePath": "/portfolio-website/logo-default.jpg",
     "link": "",
     "linkText": "GitHub",
     "usedTechnologies": "C++, Github, CSV, Linux"
@@ -30,7 +30,7 @@
     "title": "Apaja",
     "description": "An E-commerce website for buying fishing licenses in Finland",
     "projectText": "I was/am a founding member in this project. The project was not technically anything special but it did allow me to improve my React skills. I also learned alot about the business side of programming projects and devops. My duties in this project was being the lead frontend developer but I also was involved in the design of the backend. I also lead the team of five students who made the first prototype of the backend and frontend. I also did some contributing to the python backend but 80% of the work I did was on the frontend.",
-    "imagePath": "./src/assets/logo-apaja.jpg",
+    "imagePath": "/portfolio-website/logo-apaja.jpg",
     "link": "",
     "linkText": "Website",
     "usedTechnologies": "React, Vite, Typescript, Python, AWS, Python, SQL"
@@ -39,7 +39,7 @@
     "title": "Java2UML",
     "description": "A CLI tool for creating UMLetino compliant UML drawings of java projects",
     "projectText": "I started this project so I could get a better understanding of UML. I thought it would be neat to have auto generated UML graphs instead of manually making them.",
-    "imagePath": "./src/assets/logo-default.jpg",
+    "imagePath": "/portfolio-website/logo-default.jpg",
     "link": "",
     "linkText": "GitHub",
     "usedTechnologies": "Java, UMLetino"
@@ -48,7 +48,7 @@
     "title": "BulletTime",
     "description": "A CLI personal planner and calendar",
     "projectText": "This was the first project I started working at when I started my studies at the University of Oulu. The moodle workspace where most of the studies are organized was insufficent and it made me miss some deadlines.",
-    "imagePath": "./src/assets/logo-default.jpg",
+    "imagePath": "/portfolio-website/logo-default.jpg",
     "link": "",
     "linkText": "GitHub",
     "usedTechnologies": "C++, Linux"
@@ -57,8 +57,8 @@
     "title": "Linux ricing",
     "description": "A compilation of config files and scripts to copy my setup and desktop environment quickly from Github",
     "projectText": "I have been using Linux ever since highschool when I learned that I could side load Linux to my school laptop with a locked down version of Windows 10. I side loaded Linux so I could play video games during boring classes. Later while I was reinstalling Windows on my home desktop I tought that while I am reinstalling windows why not try Linux. After the first five minutes I had been sold. After that I have used Linux. This project contains install scripts for ubuntu and arhc based distros. It also has my sway window manager config.",
-    "imagePath": "./src/assets/logo-linux-rice.jpg",
-    "link": "",
+    "imagePath": "/portfolio-website/logo-linux-rice.jpg",
+    "link": "https://github.com/KeijoPitkanen/LinuxConfig",
     "linkText": "GitHub",
     "usedTechnologies": "sway, Linux, Docker"
   }
