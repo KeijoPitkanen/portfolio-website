@@ -13,6 +13,7 @@
   padding: 10px;
   background-color: var(--color-surface);
   height: 7vh;
+  min-height: 65px;
   z-index: 999;
 }
 
@@ -40,6 +41,8 @@
 .offcanvas-link {
   text-decoration: none;
   cursor: pointer;
+  font-size: large;
+  color: white;
 }
 .profile-image {
   width: 300px;

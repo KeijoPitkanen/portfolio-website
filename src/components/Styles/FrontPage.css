@@ -1,11 +1,9 @@
 .projects-grid {
-  display: grid;
+  display: flex;
   width: 100%;
-  grid-template-columns: repeat(4, 1fr);
-  justify-items: center;
+  flex-wrap: wrap;
   gap: 20px;
-  row-gap: 40px;
-  margin-bottom: 20px;
+  justify-content: center;
 }
 
 .interest-list-container {
@@ -13,4 +11,14 @@
   flex-direction: row;
   justify-content: center;
   gap: 50px;
+}
+
+.content-box-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
 }

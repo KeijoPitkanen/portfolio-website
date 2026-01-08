@@ -1,10 +1,15 @@
 .project-card {
   cursor: pointer;
+  display: flex !important;
+  justify-content: center !important;
   height: 36vh;
   width: 15vw;
-  color: var(--color-text-primary);
-  background-color: var(--color-surface-muted);
+  min-width: 200px !important;
+  color: var(--color-text-primary) !important;
+  background-color: var(--color-surface-muted) !important;
+
   transition: transform 0.25s ease;
+  max-height: 500px;
 }
 
 .project-card:hover {

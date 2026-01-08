@@ -50,17 +50,15 @@ function TopBar(): JSX.Element {
           </a>
           <br />
           <a className="offcanvas-link" href="https://github.com/KeijoPitkanen">
-            Github
-          </a>{" "}
-          <BsGithub />
+            Github <BsGithub />
+          </a>
           <br />
           <a
             className="offcanvas-link"
             href="https://averagearchprogramming.wordpress.com/?utm_medium=email&utm_campaign=wpcom-happy-moments%2Ffirst-post&utm_source=guides"
           >
-            Blog
-          </a>{" "}
-          <BsWordpress />
+            Blog <BsWordpress />
+          </a>
         </Offcanvas.Body>
         <Offcanvas.Body></Offcanvas.Body>
       </Offcanvas>

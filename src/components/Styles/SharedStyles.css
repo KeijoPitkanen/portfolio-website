@@ -2,7 +2,6 @@
   width: 75%;
   margin: auto;
   padding: 50px;
-
   padding-left: 5%;
   padding-right: 5%;
   align-content: center;
@@ -20,18 +19,27 @@
   color: var(--color-text-primary);
 }
 .content-box-medium {
-  width: 50%;
+  width: 45%;
+  min-width: 380px;
   background-color: cyan;
   padding: 10px;
   border-radius: var(--border-radius);
   background-color: var(--color-surface-soft);
   color: var(--color-text-primary);
+  flex: 1 1 auto;
+}
+/*
+  * 50% of a 1080p window will make this draw the two highleghted projects in their own row
+*/
+@media (max-width: 1200px) {
+  .content-box-medium {
+    width: 90%;
+  }
 }
 
-.content-box-container {
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-  width: 100%;
+@media (max-width: 700px) {
+  .page-container {
+    width: 90%;
+    min-width: 500px;
+  }
 }

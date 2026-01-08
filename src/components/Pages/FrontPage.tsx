@@ -55,6 +55,12 @@ function FrontPage() {
     );
   }
 
+  /**
+   *
+   * @param header Header for the list
+   * @param list interests
+   * @returns list of all interests with header
+   */
   function renderInterestList(header: string, list: string[]) {
     return (
       <div className="interest-list">
@@ -70,43 +76,41 @@ function FrontPage() {
 
   /////////////////////////////////////////////////////// Main Return
   return (
-    <>
-      <div className="page-container">
-        <div className="content-box-large">
-          <h5>{TEXT.frontPage.aboutMeHeader1}</h5>
-          <p>{TEXT.frontPage.aboutMeBoxText1}</p>
-          <h5>{TEXT.frontPage.aboutMeHeader2}</h5>
-          <p>{TEXT.frontPage.aboutMeBoxText2}</p>
-          <div className="interest-list-container">
-            {renderInterestList(
-              TEXT.frontPage.aboutMeListHeader1,
-              TEXT.frontPage.aboutMeList1
-            )}
-            {renderInterestList(
-              TEXT.frontPage.aboutMeListHeader2,
-              TEXT.frontPage.aboutMeList2
-            )}
-          </div>
-          <h5>{TEXT.frontPage.aboutMeHeader3}</h5>
-          <p>{TEXT.frontPage.aboutMeBoxText3}</p>
+    <div className="page-container">
+      <div className="content-box-large">
+        <h5>{TEXT.frontPage.aboutMeHeader1}</h5>
+        <p>{TEXT.frontPage.aboutMeBoxText1}</p>
+        <h5>{TEXT.frontPage.aboutMeHeader2}</h5>
+        <p>{TEXT.frontPage.aboutMeBoxText2}</p>
+        <div className="interest-list-container">
+          {renderInterestList(
+            TEXT.frontPage.aboutMeListHeader1,
+            TEXT.frontPage.aboutMeList1
+          )}
+          {renderInterestList(
+            TEXT.frontPage.aboutMeListHeader2,
+            TEXT.frontPage.aboutMeList2
+          )}
         </div>
-        <div className="content-box-container">
-          <div className="content-box-medium">
-            <h5>{TEXT.frontPage.projectBoxHeader}</h5>
-            <p>{TEXT.frontPage.projectBoxText1}</p>
-            <p>{TEXT.frontPage.projectBoxText2}</p>
-            <p>{TEXT.frontPage.projectBoxText3}</p>
-          </div>
-          {renderProject(0)}
-          {renderProject(3)}
-        </div>
-        <div className="content-box-large">
-          <h5>{TEXT.frontPage.aboutMeHeader4}</h5>
-          <p>{TEXT.frontPage.aboutMeBoxText4}</p>
-        </div>
-        <div className="projects-grid">{renderAllProjects()}</div>
+        <h5>{TEXT.frontPage.aboutMeHeader3}</h5>
+        <p>{TEXT.frontPage.aboutMeBoxText3}</p>
       </div>
-    </>
+      <div className="content-box-container">
+        <div className="content-box-medium">
+          <h5>{TEXT.frontPage.projectBoxHeader}</h5>
+          <p>{TEXT.frontPage.projectBoxText1}</p>
+          <p>{TEXT.frontPage.projectBoxText2}</p>
+          <p>{TEXT.frontPage.projectBoxText3}</p>
+        </div>
+        {renderProject(0)}
+        {renderProject(3)}
+      </div>
+      <div className="content-box-large">
+        <h5>{TEXT.frontPage.aboutMeHeader4}</h5>
+        <p>{TEXT.frontPage.aboutMeBoxText4}</p>
+      </div>
+      <div className="projects-grid">{renderAllProjects()}</div>
+    </div>
   );
 }
 
