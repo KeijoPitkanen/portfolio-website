@@ -1,0 +1,43 @@
+{
+  "frontPage": {
+    "aboutMeListHeader1": "Programming interests",
+    "aboutMeListHeader2": "Personal interests",
+    "aboutMeList1": [
+      "Object oriented programming",
+      "Old computers",
+      "Linux",
+      "Embedded programming",
+      "Code organization"
+    ],
+    "aboutMeList2": [
+      "Writing music",
+      "Painting",
+      "Gaming",
+      "Dogs (woof)",
+      "Writing short stories"
+    ],
+    "aboutMeHeader1": "Hello !",
+    "aboutMeBoxText1": "You have found my personal portfolio website. Most likely you are seeing this because you saw it on my CV. If you found this from my LinkedIn or Github and are cyber stalking me (naughty!) feel free to look at my past projects. Here you can find information about my personal, academic and employment history.",
+    "aboutMeHeader2": "My personal interests",
+    "aboutMeBoxText2": "I have many interests in my free time. Programming and technology has been close to my heart ever since I first tried my fathers computer and learned to write dosshell to be able to play Welfenstein 3D and Commander Keen. I grow up with a NES, N64 and a PS2. It was a good way to see the evolution of computer hardware and software for a child. When I was 13 I wrote my first piece of code which was a (bad) game written C++ like language. Later I learned some basic javascript and html in my highschool.",
+    "aboutMeHeader3": "My academic and employment history",
+    "aboutMeBoxText3": "I was born and lived my childhood and teen years in the west coast of Finland near Pori. During this time I did some summer jobs at a sawmill, park mainteiner and roadie. After my military service I moved to start my information processing studies at the University of Oulu. At the university is where I started programming more. I spent most of the time learning Java but I also learned some SQL basics. During my time in Oulu I worked as a librarian and a international student tutor. After my second year I moved switched to the University of Eastern Finland in Kuopio to live with my partner. In Kuopio I am currently finishing my bachelor studies and doing some master level courses. Along with my studies I have also worked as sound- and light technician for many events and bands.",
+    "projectBoxHeader": "Highlighted Projects",
+    "projectBoxText1": "Here are two of my highleghted projects. Jellyfin-media-renamer(JMR) and Apaja. I have chosen these two because Apaja is the biggest project I have worked on and JMR is my first proper project. I think that I have learned the most during these two projects.",
+    "projectBoxText2": "JMR is a command line tool that renames all the files and directories in a root directory to follow the naming conventions used by the open source media streaming project Jellyfin. Basically it removes useless junk like tags about the video resolution, torrent creator etc. and adds a year tag to its correct place. It fixes the directory structure to be compliant with Jellyfin so the structure is like this /show name/season 01/show name S01E01.",
+    "projectBoxText3": "Apaja is a website where users can buy fishing licenses for different areas around Finland. The traditional selling of these licenses is usually done in a local cafe or shop. Some areas have their own websites where users can buy these licenses. Apaja is the first propper e-commerce website for fishing licenses that sells licenses everywhere in Finland.",
+    "aboutMeHeader4": "Other projects",
+    "aboutMeBoxText4": "I have started many projects in the past years and even finished some. Here are some of these projects."
+  },
+  "offCanvas": {
+    "title": "Links",
+    "text": "Here you can find links to everywhere where I am active. I do not use social media except LinkedIn so that and email is the best way to get in touch with"
+  },
+  "topbar": {
+    "header": "The second best programmer in the world",
+    "text": "Because the best has not been born yet"
+  },
+  "projectCard": {
+    "usedTechnologies": "Used Technologies"
+  }
+}

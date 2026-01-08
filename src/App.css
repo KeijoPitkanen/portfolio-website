@@ -1,0 +1,39 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* === Colours === */
+  --color-bg: #0d1117; /* Main background: deep dark gray-blue */
+  --color-bg-soft: #1c2128; /* Softer dark background for sidebars or footers */
+  --color-bg-alt: #0b0f14; /* Even darker background for deep sections */
+  --color-bg-muted: #12161c; /* Muted dark background for subtle contrast */
+  --color-surface: #1d293b; /* Surface background: slightly lighter for cards/panels */
+  --color-surface-alt: #1f242c; /* Alternative surface for cards/panels */
+  --color-surface-muted: #242b33; /* Muted surface for secondary containers */
+  --color-surface-soft: #2a323c; /* Softer surface for hover states or highlights */
+  --color-text-primary: #e6edf3; /* Primary text: soft off-white for readability */
+  --color-text-secondary: #8b949e; /* Secondary text: muted gray for metadata, labels */
+  --color-highlight: #3b82f6; /* Highlight: light navy blue for links, buttons */
+  --color-highlight-hover: #60a5fa; /* Highlight hover: brighter navy for hover states */
+  --color-border: #30363d; /* Borders/dividers: subtle gray for separation */
+
+  /* === Shadows === */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(255, 255, 255, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(255, 255, 255, 0.04);
+  --shadow-top: 0 -4px 6px -1px rgba(0, 0, 0, 0.1);
+  --glow-white: 0 0 8px rgba(255, 255, 255, 0.3);
+
+  /* === Spacing === */
+  --border-radius: 10px;
+  --border-radius-lg: 16px;
+}
+
+.main {
+  background-color: var(--color-bg-alt);
+}

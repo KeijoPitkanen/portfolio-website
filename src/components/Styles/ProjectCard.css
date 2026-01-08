@@ -1,0 +1,27 @@
+.project-card {
+  cursor: pointer;
+  height: 36vh;
+  width: 15vw;
+  color: var(--color-text-primary);
+  background-color: var(--color-surface-muted);
+  transition: transform 0.25s ease;
+}
+
+.project-card:hover {
+  box-shadow: var(--glow-white);
+  transform: scale(1.05); /* grows 5% */
+}
+
+.modal-content {
+  background-color: var(--color-surface-muted);
+  color: var(--color-text-primary);
+}
+
+/*
+This removes the separation line between modal header and modal content as well
+as the separation line between modal content and modal footer
+*/
+.modal-header,
+.modal-footer {
+  border-style: hidden;
+}
