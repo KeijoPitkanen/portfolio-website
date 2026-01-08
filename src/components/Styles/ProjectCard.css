@@ -34,7 +34,7 @@ as the separation line between modal content and modal footer
 .image-wrapper {
   position: relative;
   width: 100%;
-  height: 200px; /* adjust to your card image height */
+  max-height: 270px;
   overflow: hidden;
 }
 

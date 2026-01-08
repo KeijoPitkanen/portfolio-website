@@ -60,27 +60,23 @@ function ProjectCard(project: ProjectInterface): JSX.Element {
       </Modal>
 
       <Card className="project-card" onClick={handleShow}>
-        {" "}
         <div className="image-wrapper">
-          {" "}
-          {!loaded && <div className="image-skeleton" />}{" "}
+          {!loaded && <div className="image-skeleton" />}
           <Card.Img
             variant="top"
             src={project.imagePath}
             className={`card-image ${loaded ? "visible" : "hidden"}`}
             onLoad={() => setLoaded(true)}
-          />{" "}
-        </div>{" "}
+          />
+        </div>
         <Card.Body>
-          {" "}
-          <Card.Title>{project.title}</Card.Title>{" "}
-          <Card.Text>{project.description}</Card.Text>{" "}
+          <Card.Title>{project.title}</Card.Title>
+          <Card.Text>{project.description}</Card.Text>
           <Card.Text>
-            {" "}
-            <b>{TEXT.projectCard.usedTechnologies}:</b>{" "}
-            {project.usedTechnologies}{" "}
-          </Card.Text>{" "}
-        </Card.Body>{" "}
+            <b>{TEXT.projectCard.usedTechnologies}:</b>
+            {project.usedTechnologies}
+          </Card.Text>
+        </Card.Body>
       </Card>
     </>
   );

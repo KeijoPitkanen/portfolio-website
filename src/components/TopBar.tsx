@@ -11,6 +11,7 @@ import TEXT from "../assets/TextContent.json";
 function TopBar(): JSX.Element {
   /////////////////////////////////////////////////////// Variables
   const [show, setShow] = useState(false);
+  const [loaded, setLoaded] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
@@ -32,12 +33,16 @@ function TopBar(): JSX.Element {
           <Offcanvas.Title>{TEXT.offCanvas.title}</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <Image
-            className="profile-image"
-            fluid
-            rounded
-            src="/portfolio-website/profile-picture.jpg"
-          />
+          <div className="profile-image-wrapper">
+            {!loaded && <div className="profile-image-skeleton" />}
+            <Image
+              className={`profile-image ${loaded ? "visible" : "hidden"}`}
+              fluid
+              rounded
+              src="/portfolio-website/profile-picture.jpg"
+              onLoad={() => setLoaded(true)}
+            />
+          </div>
           <br />
           {TEXT.offCanvas.text}
           <br />
